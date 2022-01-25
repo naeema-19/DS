@@ -134,7 +134,6 @@ void tuple2normal(int tr[100][3], int trn[100][100]){
     showNormal(trn, tr[0][0], tr[0][1]);
 }
 
-
 void matsum(int tup1[100][3],int tup2[100][3])
 {
 	int i,j,k,m,r1,r2;
@@ -253,7 +252,7 @@ int main(){
                     printf("\n\nTranspose of matrix 2: ");
                     transposeTuple(tr2, tup2);
                     break;
-             
+            
             case 4: printf("\n\nTranspose of matrix 1: \n");
                     tuple2normal(tr1, trn1);
                     printf("\n\nTranspose of matrix 2: \n");
@@ -262,7 +261,7 @@ int main(){
             case 5: matsum(tup1, tup2);
                     break;
             case 6: printf("\n\nNormal form of Sum Matrix: \n");
-                    tuple2normal(tupsum, matrixsum);
+                    tuple2normal(e, matrixsum);
                     break;
             case 7: printf("\n\n\n\n\t\tTHANK YOU\n\n\n\n");
                     break;
